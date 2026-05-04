@@ -26,6 +26,10 @@ For drone view (camera):
 ````bash
  ros2 run rqt_image_view rqt_image_view
 ````
+TO move the drone:
+````bash
+ python3 move_to_color.py
+````
 Detection and spray:
 ````bash
 source /opt/ros/humble/setup.bash
